@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sample test Suite]" parallel="tests">
+  <test name="player in FF(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.FirstTest">
+        <methods>
+          <include name="after_test"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.selenium.FirstTest -->
+    </classes>
+  </test> <!-- player in FF(failed) -->
+</suite> <!-- Failed suite [Sample test Suite] -->
