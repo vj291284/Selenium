@@ -63,6 +63,7 @@ public class FirstTest {
 		boolean feedBack = driver.findElement(By.tagName("body")).getText().contains(home_pg_text);
 		Assert.assertTrue(feedBack);
 		Reporter.log("homepageTest Test Passed");
+		Reporter.log("homepageTest Test Passed");
 		
 	}
 	
