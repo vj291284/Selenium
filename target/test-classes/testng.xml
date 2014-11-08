@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Sample test Suite" parallel='tests'>
-   <test name="player in FF">
-    <classes>
-      <class name="com.selenium.FirstTest" />
-    </classes>
-  </test>
+<parameter name="browser" value="FireFox"/>
+   <test name="player in FireFox1">
+    	<classes>
+     		<class name="com.selenium.loginTest" />
+    	</classes>
+   </test>
 </suite>	

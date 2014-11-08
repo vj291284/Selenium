@@ -1,41 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
-    <line>
-      <![CDATA[homepageTest Test Passed]]>
-    </line>
-    <line>
-      <![CDATA[loginTest Test Passed]]>
-    </line>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="6644" started-at="2014-11-06T06:17:57Z" finished-at="2014-11-06T06:18:04Z">
+  <suite name="Sample test Suite" duration-ms="4343" started-at="2014-11-08T05:39:17Z" finished-at="2014-11-08T05:39:21Z">
     <groups>
     </groups>
-    <test name="player in FF" duration-ms="6644" started-at="2014-11-06T06:17:57Z" finished-at="2014-11-06T06:18:04Z">
-      <class name="com.selenium.FirstTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.selenium.FirstTest@f53d61]" name="setUp" is-config="true" duration-ms="5759" started-at="2014-11-05T23:17:57Z" finished-at="2014-11-05T23:18:03Z">
+    <test name="player in FireFox1" duration-ms="4343" started-at="2014-11-08T05:39:17Z" finished-at="2014-11-08T05:39:21Z">
+      <class name="com.selenium.loginTest">
+        <test-method status="PASS" signature="initBrowser(java.lang.String)[pri:0, instance:com.selenium.loginTest@ba4539]" name="initBrowser" is-config="true" duration-ms="5402" started-at="2014-11-07T22:39:11Z" finished-at="2014-11-07T22:39:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="homepageTest()[pri:0, instance:com.selenium.FirstTest@f53d61]" name="homepageTest" duration-ms="91" started-at="2014-11-05T23:18:03Z" finished-at="2014-11-05T23:18:03Z">
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="login_neg_Test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.loginTest@ba4539]" name="login_neg_Test" duration-ms="2845" started-at="2014-11-07T22:39:17Z" data-provider="Login" finished-at="2014-11-07T22:39:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ERROR: The password field is empty.]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[homepageTest Test Passed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- homepageTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.selenium.FirstTest@f53d61]" name="loginTest" duration-ms="407" started-at="2014-11-05T23:18:03Z" finished-at="2014-11-05T23:18:04Z">
+        </test-method> <!-- login_neg_Test -->
+        <test-method status="PASS" signature="login_neg_Test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.loginTest@ba4539]" name="login_neg_Test" duration-ms="1488" started-at="2014-11-07T22:39:19Z" data-provider="Login" finished-at="2014-11-07T22:39:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demo123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WordPress Demo Install]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
-            <line>
-              <![CDATA[loginTest Test Passed]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="after_test()[pri:0, instance:com.selenium.FirstTest@f53d61]" name="after_test" is-config="true" duration-ms="379" started-at="2014-11-05T23:18:04Z" finished-at="2014-11-05T23:18:04Z">
+        </test-method> <!-- login_neg_Test -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.loginTest@ba4539]" name="closeBrowser" is-config="true" duration-ms="140" started-at="2014-11-07T22:39:21Z" finished-at="2014-11-07T22:39:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- after_test -->
-      </class> <!-- com.selenium.FirstTest -->
-    </test> <!-- player in FF -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.loginTest -->
+    </test> <!-- player in FireFox1 -->
   </suite> <!-- Sample test Suite -->
 </testng-results>

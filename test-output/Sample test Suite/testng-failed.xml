@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Sample test Suite]" parallel="tests">
-  <test name="player in FF(failed)" parallel="tests">
+  <parameter name="browser" value="FireFox"/>
+  <test name="player in FireFox1(failed)" parallel="tests">
     <classes>
-      <class name="com.selenium.FirstTest">
+      <class name="com.selenium.loginTest">
         <methods>
-          <include name="after_test"/>
-          <include name="loginTest"/>
-          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="initBrowser"/>
+          <include name="login_neg_Test" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.selenium.FirstTest -->
+      </class> <!-- com.selenium.loginTest -->
     </classes>
-  </test> <!-- player in FF(failed) -->
+  </test> <!-- player in FireFox1(failed) -->
 </suite> <!-- Failed suite [Sample test Suite] -->

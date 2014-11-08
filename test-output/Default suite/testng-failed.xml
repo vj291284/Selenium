@@ -5,7 +5,8 @@
     <classes>
       <class name="com.selenium.FirstTest">
         <methods>
-          <include name="startWebdriver"/>
+          <include name="homepageTest"/>
+          <include name="loginTest"/>
         </methods>
       </class> <!-- com.selenium.FirstTest -->
     </classes>
