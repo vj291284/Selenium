@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="4343" started-at="2014-11-08T05:39:17Z" finished-at="2014-11-08T05:39:21Z">
+  <suite name="Sample test Suite" duration-ms="4698" started-at="2014-11-08T06:32:07Z" finished-at="2014-11-08T06:32:11Z">
     <groups>
     </groups>
-    <test name="player in FireFox1" duration-ms="4343" started-at="2014-11-08T05:39:17Z" finished-at="2014-11-08T05:39:21Z">
+    <test name="player in FireFox1" duration-ms="4698" started-at="2014-11-08T06:32:07Z" finished-at="2014-11-08T06:32:11Z">
       <class name="com.selenium.loginTest">
-        <test-method status="PASS" signature="initBrowser(java.lang.String)[pri:0, instance:com.selenium.loginTest@ba4539]" name="initBrowser" is-config="true" duration-ms="5402" started-at="2014-11-07T22:39:11Z" finished-at="2014-11-07T22:39:17Z">
+        <test-method status="PASS" signature="initBrowser(java.lang.String)[pri:0, instance:com.selenium.loginTest@584e97]" name="initBrowser" is-config="true" duration-ms="18889" started-at="2014-11-07T23:31:48Z" finished-at="2014-11-07T23:32:07Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method status="PASS" signature="login_neg_Test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.loginTest@ba4539]" name="login_neg_Test" duration-ms="2845" started-at="2014-11-07T22:39:17Z" data-provider="Login" finished-at="2014-11-07T22:39:19Z">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.selenium.loginTest@584e97]" name="initBrowser" is-config="true" duration-ms="2605" started-at="2014-11-07T23:32:07Z" finished-at="2014-11-07T23:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="login_neg_Test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.loginTest@584e97]" name="login_neg_Test" duration-ms="1603" started-at="2014-11-07T23:32:09Z" data-provider="Login" finished-at="2014-11-07T23:32:11Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_neg_Test -->
-        <test-method status="PASS" signature="login_neg_Test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.loginTest@ba4539]" name="login_neg_Test" duration-ms="1488" started-at="2014-11-07T22:39:19Z" data-provider="Login" finished-at="2014-11-07T22:39:21Z">
+        <test-method status="PASS" signature="login_neg_Test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.loginTest@584e97]" name="login_neg_Test" duration-ms="420" started-at="2014-11-07T23:32:11Z" data-provider="Login" finished-at="2014-11-07T23:32:11Z">
           <params>
             <param index="0">
               <value>
@@ -60,7 +64,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_neg_Test -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.loginTest@ba4539]" name="closeBrowser" is-config="true" duration-ms="140" started-at="2014-11-07T22:39:21Z" finished-at="2014-11-07T22:39:21Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.loginTest@584e97]" name="closeBrowser" is-config="true" duration-ms="180" started-at="2014-11-07T23:32:11Z" finished-at="2014-11-07T23:32:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

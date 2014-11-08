@@ -7,16 +7,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
+import org.testng.annotations.BeforeMethod;
 
 import pageObjects.loginObject;
 
 public class loginTest extends iniClass{
 	
-	@BeforeMethod
-	public void beforeMethod throws Exception {
+	@BeforeTest
+	public void initBrowser() {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://demo.opensourcecms.com/wordpress/wp-login.php");
-		
 	}
 	
 
