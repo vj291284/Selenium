@@ -1,74 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="2" failed="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="4698" started-at="2014-11-08T06:32:07Z" finished-at="2014-11-08T06:32:11Z">
+  <suite name="Default suite" duration-ms="50" started-at="2014-11-18T23:36:39Z" finished-at="2014-11-18T23:36:40Z">
     <groups>
     </groups>
-    <test name="player in FireFox1" duration-ms="4698" started-at="2014-11-08T06:32:07Z" finished-at="2014-11-08T06:32:11Z">
-      <class name="com.selenium.loginTest">
-        <test-method status="PASS" signature="initBrowser(java.lang.String)[pri:0, instance:com.selenium.loginTest@584e97]" name="initBrowser" is-config="true" duration-ms="18889" started-at="2014-11-07T23:31:48Z" finished-at="2014-11-07T23:32:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FireFox]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="50" started-at="2014-11-18T23:36:39Z" finished-at="2014-11-18T23:36:40Z">
+      <class name="com.selenium.FirstTest">
+        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:com.selenium.FirstTest@1580c3a]" name="setUp" is-config="true" duration-ms="0" started-at="2014-11-18T16:36:39Z" finished-at="2014-11-18T16:36:39Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method setUp but has not been marked @Optional or defined
+in C:\Users\ctsuser1\AppData\Local\Temp\testng-eclipse--1840476139\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method setUp but has not been marked @Optional or defined
+in C:\Users\ctsuser1\AppData\Local\Temp\testng-eclipse--1840476139\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:86)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:199)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.selenium.loginTest@584e97]" name="initBrowser" is-config="true" duration-ms="2605" started-at="2014-11-07T23:32:07Z" finished-at="2014-11-07T23:32:09Z">
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="homepageTest()[pri:0, instance:com.selenium.FirstTest@1580c3a]" name="homepageTest" duration-ms="10" started-at="2014-11-18T16:36:40Z" finished-at="2014-11-18T16:36:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initBrowser -->
-        <test-method status="PASS" signature="login_neg_Test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.loginTest@584e97]" name="login_neg_Test" duration-ms="1603" started-at="2014-11-07T23:32:09Z" data-provider="Login" finished-at="2014-11-07T23:32:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ERROR: The password field is empty.]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- homepageTest -->
+        <test-method status="SKIP" signature="after_test()[pri:0, instance:com.selenium.FirstTest@1580c3a]" name="after_test" is-config="true" duration-ms="0" started-at="2014-11-18T16:36:40Z" finished-at="2014-11-18T16:36:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_neg_Test -->
-        <test-method status="PASS" signature="login_neg_Test(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.selenium.loginTest@584e97]" name="login_neg_Test" duration-ms="420" started-at="2014-11-07T23:32:11Z" data-provider="Login" finished-at="2014-11-07T23:32:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[demo123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[WordPress Demo Install]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- after_test -->
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.selenium.FirstTest@1580c3a]" name="loginTest" duration-ms="0" started-at="2014-11-18T16:36:40Z" finished-at="2014-11-18T16:36:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login_neg_Test -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.loginTest@584e97]" name="closeBrowser" is-config="true" duration-ms="180" started-at="2014-11-07T23:32:11Z" finished-at="2014-11-07T23:32:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.selenium.loginTest -->
-    </test> <!-- player in FireFox1 -->
-  </suite> <!-- Sample test Suite -->
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.selenium.FirstTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

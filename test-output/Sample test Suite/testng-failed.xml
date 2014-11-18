@@ -6,9 +6,8 @@
     <classes>
       <class name="com.selenium.loginTest">
         <methods>
-          <include name="closeBrowser"/>
           <include name="initBrowser"/>
-          <include name="login_neg_Test" invocation-numbers="0"/>
+          <include name="login_neg_Test"/>
         </methods>
       </class> <!-- com.selenium.loginTest -->
     </classes>
